@@ -3,7 +3,7 @@ import { GET_USERS, POST_USERS, PUT_USERS, PATCH_USERS, DELETE_USERS } from'../a
 export const usersStore = (state = [], action) => {
     switch (action.type) {
         case GET_USERS:
-            return [
+            return [ 
                 ...state,
                 { users : action.payload }               
             ]
