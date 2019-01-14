@@ -6,7 +6,7 @@ const Home = () => {
         <div className="App-header">
             <Logo alt="ReactStrap Body"/>
             <p>
-                Edit <code>src/Main.js</code> and save to reload.
+                Try to Edit <code>src/Main.js</code> and save to reload.
             </p>
         </div>
     )
