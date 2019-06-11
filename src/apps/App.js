@@ -38,6 +38,7 @@ store.dispatch(postUsers());
 store.dispatch(postTodos());
 console.log('post state', store.getState());
 
+// test
 class App extends Component {
   render() {
     return (
